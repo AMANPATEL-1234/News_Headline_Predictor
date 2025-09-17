@@ -3,6 +3,7 @@ import tensorflow as tf
 import pickle
 import numpy as np
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras import backend as K
 # Load model
 model = tf.keras.models.load_model("news_model.h5")
 # Load tokenizer
@@ -24,6 +25,7 @@ if st.button("Predict"):
         pred = model.predict(padded)
         label = le.inverse_transform([np.argmax(pred)])
         st.success(f"Predicted Category: **{label[0]}**")
+        K.clear_session()
     else:
-
         st.warning("Please enter some text.")
+
