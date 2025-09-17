@@ -5,8 +5,4 @@ scikit-learn
 pandas
 matplotlib
 seaborn
-keras
-json
-re
 nltk
-pickle
