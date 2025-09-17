@@ -49,7 +49,7 @@ streamlit run app.py
 
 ---
 📂 Repository Structure
-News_Headline_Predictor/
+```News_Headline_Predictor/
 │── app.py
 │── news_model.h5
 │── tokenizer.pkl
@@ -57,7 +57,7 @@ News_Headline_Predictor/
 │── requirements.txt
 │── runtime.txt
 │── README.md
-
+```
 ---
 ## 📞 Contact
 For any queries or collaboration, feel free to reach out:  
