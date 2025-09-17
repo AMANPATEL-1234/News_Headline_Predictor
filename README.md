@@ -45,6 +45,8 @@ git clone https://github.com/AMANPATEL-1234/News_Headline_Predictor
 ```
 2. Install dependencies:
 pip install -r requirements.txt
+
+3.Run the Streamlit app:
 streamlit run app.py
 
 ---
