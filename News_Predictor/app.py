@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import tensorflow as tf
 import pickle
 import numpy as np
@@ -25,4 +25,5 @@ if st.button("Predict"):
         label = le.inverse_transform([np.argmax(pred)])
         st.success(f"Predicted Category: **{label[0]}**")
     else:
+
         st.warning("Please enter some text.")
