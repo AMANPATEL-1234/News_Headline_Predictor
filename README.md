@@ -41,7 +41,7 @@ The app requires the following Python packages:
 
 1. Clone this repository:  
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/AMANPATEL-1234/News_Headline_Predictor
 ```
 2. Install dependencies:
 pip install -r requirements.txt
