@@ -4,12 +4,12 @@ import pickle
 import numpy as np
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 # Load model
-model = tf.keras.models.load_model("news_model.h5")
+model = tf.keras.models.load_model("../news_model.h5")
 # Load tokenizer
-with open("tokenizer.pkl", "rb") as f:
+with open("../tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 # Load label encoder
-with open("label_encoder.pkl", "rb") as f:
+with open("../label_encoder.pkl", "rb") as f:
     le = pickle.load(f)
 # Use same max length from training
 MAX_LEN = 200  
@@ -27,3 +27,4 @@ if st.button("Predict"):
     else:
 
         st.warning("Please enter some text.")
+
