@@ -16,7 +16,6 @@ This project demonstrates **Natural Language Processing (NLP)** techniques, incl
 
 - Predict the category of any news headline in real-time  
 - Built with **Streamlit** for an interactive web interface  
-- Uses pre-trained model (`news_model.h5`) and tokenizer (`tokenizer.pkl`)  
 
 ---
 
